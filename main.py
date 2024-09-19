@@ -51,7 +51,7 @@ def create_map(data, selected_pelatihan):
     
     return m
 
-st.title("Persebaran Peserta Pelatihan")
+st.title("Peta Persebaran Domisili Purnawidya")
 
 # Upload file excel
 uploaded_file = st.file_uploader("Upload file Excel", type=["xlsx"])
